@@ -20,6 +20,7 @@
   home.packages = [
     # pkgs.hyprland # Installed via "my-desktop" repo
     # pkgs.neovim # Installed via "my-desktop" repo
+    pkgs.cosign			# Containger signing CLI
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage

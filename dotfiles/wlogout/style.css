@@ -6,7 +6,7 @@
 }
 
 window {
-	background: url("../.hypr/hyprland/wallpaper_blurred.png");
+	background: url("~/.config/hypr/hyprland/wallpaper_blurred.png");
 	background-size: cover;
 }
 

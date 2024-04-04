@@ -26,8 +26,24 @@
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file = {
-    ".config/hypr/hyprland.conf".source = dotfiles/hypr/hyprland.conf;
-    ".config/kanshi/config".source 	= dotfiles/kanshi/config;
+    ".config/hypr/hyprland.conf".source 		= dotfiles/hypr/hyprland.conf;
+    ".config/hypr/wallpaper.png".source 		= dotfiles/hypr/wallpaper.png;
+    ".config/hypr/wallpaper_blurred.png".source 	= dotfiles/hypr/wallpaper_blurred.png;
+
+    ".config/kanshi/config".source 			= dotfiles/kanshi/config;
+
+    ".config/wlogout/style.css".source 			= dotfiles/wlogout/style.css;
+    ".config/wlogout/layout".source 			= dotfiles/wlogout/layout;
+    ".config/wlogout/lock.png".source 			= dotfiles/wlogout/lock.png;
+    ".config/wlogout/logout.png".source 		= dotfiles/wlogout/logout.png;
+    ".config/wlogout/suspend.png".source 		= dotfiles/wlogout/suspend.png;
+    ".config/wlogout/hibernate.png".source 		= dotfiles/wlogout/hibernate.png;
+    ".config/wlogout/reboot.png".source 		= dotfiles/wlogout/reboot.png;
+    ".config/wlogout/shutdown.png".source 		= dotfiles/wlogout/shutdown.png;
+
+    ".config/swayidle/config".source 			= dotfiles/swayidle/config;
+
+    ".config/swaylock/config".source 			= dotfiles/swaylock/config;
   };
 
   # Home Manager can also manage your environment variables through

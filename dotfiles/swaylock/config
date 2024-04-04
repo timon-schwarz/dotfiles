@@ -3,5 +3,5 @@ indicator-caps-lock
 
 font="Fira Sans Semibold"
 
-image=../hypr/wallpaper_blurred.png
+image=~/.config/hypr/wallpaper_blurred.png
 

@@ -27,12 +27,14 @@
   # plain files is through 'home.file'.
   home.file = {
     ".config/hypr/hyprland.conf".source = dotfiles/hypr/hyprland.conf;
+    ".config/kanshi/config".source 	= dotfiles/kanshi/config;
   };
 
   # Home Manager can also manage your environment variables through
   # 'home.sessionVariables'. 
   home.sessionVariables = {
     EDITOR = "nvim";
+    TERMINAL = "kitty";
   };
 
   # Let Home Manager install and manage itself.

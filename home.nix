@@ -44,6 +44,11 @@
     ".config/swayidle/config".source 			= dotfiles/swayidle/config;
 
     ".config/swaylock/config".source 			= dotfiles/swaylock/config;
+
+    ".config/waybar/config".source 			= dotfiles/waybar/config;
+    ".config/waybar/style.css".source 			= dotfiles/waybar/style.css;	# Needs .config/colors/*
+
+    ".config/colors/mocha.css".source 			= dotfiles/colors/mocha.css;
   };
 
   # Home Manager can also manage your environment variables through

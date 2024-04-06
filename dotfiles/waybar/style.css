@@ -44,6 +44,28 @@ window#waybar.hidden {
     border-radius: 15px;
     border: 0px;
     color: @crust;
+    background-color: @teal;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.6;
+}
+
+#workspaces button.empty {
+    padding: 0px 5px;
+    margin: 4px 3px;
+    border-radius: 15px;
+    border: 0px;
+    color: @crust;
+    background-color: @rosewater;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.6;
+}
+
+#workspaces button.visible {
+    padding: 0px 5px;
+    margin: 4px 3px;
+    border-radius: 15px;
+    border: 0px;
+    color: @crust;
     background-color: @sapphire;
     transition: all 0.3s ease-in-out;
     opacity: 0.6;

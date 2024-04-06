@@ -28,6 +28,7 @@
     ".config/colors/mocha.hypr".source 			= dotfiles/colors/mocha.hypr;
 
     ".config/hypr/hyprland.conf".source 		= dotfiles/hypr/hyprland.conf;		# Needs .config/colors/*.hypr
+    ".config/hypr/cycle_all_workspaces.sh".source 	= dotfiles/hypr/cycle_all_workspaces.sh;
     ".config/hypr/wallpaper.png".source 		= dotfiles/hypr/wallpaper.png;
     ".config/hypr/wallpaper_blurred.png".source 	= dotfiles/hypr/wallpaper_blurred.png;
 

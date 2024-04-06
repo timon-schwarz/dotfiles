@@ -1,7 +1,6 @@
 #!/bin/bash
-for (( i=1; i != 11; i++ ))
+for (( i=11; i != 0; i-- ))
 do
     hyprctl dispatch workspace $i
 done
-hyprctl dispatch workspace 1
 

@@ -29,12 +29,13 @@
     ".config/colors/mocha.css".source 			= dotfiles/colors/mocha.css;
     ".config/colors/mocha.hypr".source 			= dotfiles/colors/mocha.hypr;
 
-    ".config/hypr/hyprland.conf".source 		= dotfiles/hypr/hyprland.conf;	# Needs .config/colors/*.hypr
+    #".config/hypr/hyprland.conf".source 		= dotfiles/hypr/hyprland.conf;		# Needs .config/colors/*.hypr
     ".config/hypr/wallpaper.png".source 		= dotfiles/hypr/wallpaper.png;
     ".config/hypr/wallpaper_blurred.png".source 	= dotfiles/hypr/wallpaper_blurred.png;
 
     ".config/waybar/config".source 			= dotfiles/waybar/config;
-    ".config/waybar/style.css".source 			= dotfiles/waybar/style.css;	# Needs .config/colors/*.css
+    ".config/waybar/style.css".source 			= dotfiles/waybar/style.css;		# Needs .config/colors/*.css
+    ".config/waybar/scripts/dunst.sh".source 		= dotfiles/waybar/scripts/dunst.sh;
 
     ".config/wlogout/style.css".source 			= dotfiles/wlogout/style.css;
     ".config/wlogout/layout".source 			= dotfiles/wlogout/layout;

@@ -18,8 +18,6 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [
-    # pkgs.hyprland # Installed via "my-desktop" repo
-    # pkgs.neovim # Installed via "my-desktop" repo
     pkgs.cosign			# Containger signing CLI
   ];
 
@@ -29,7 +27,7 @@
     ".config/colors/mocha.css".source 			= dotfiles/colors/mocha.css;
     ".config/colors/mocha.hypr".source 			= dotfiles/colors/mocha.hypr;
 
-    #".config/hypr/hyprland.conf".source 		= dotfiles/hypr/hyprland.conf;		# Needs .config/colors/*.hypr
+    ".config/hypr/hyprland.conf".source 		= dotfiles/hypr/hyprland.conf;		# Needs .config/colors/*.hypr
     ".config/hypr/wallpaper.png".source 		= dotfiles/hypr/wallpaper.png;
     ".config/hypr/wallpaper_blurred.png".source 	= dotfiles/hypr/wallpaper_blurred.png;
 
